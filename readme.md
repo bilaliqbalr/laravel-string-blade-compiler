@@ -6,11 +6,13 @@ Originally forked from [Flynsarmy/laravel-db-blade-compiler](https://github.com/
 
 This package generates and returns a compiled view from a provided string
 
-### Installation (Laravel 5.4.x)
+### Installation
 
 Require this package in your composer.json and run composer update (or run `composer require bilaliqbalr/laravel-string-blade-compiler:1.*` directly):
 
     "bilaliqbalr/laravel-string-blade-compiler": "1.*"
+
+#### Laravel < 5.5
 
 After updating composer, add the ServiceProvider to the providers array in app/config/app.php
 
